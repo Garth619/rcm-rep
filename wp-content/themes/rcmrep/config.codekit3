@@ -192,6 +192,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/page-templates/template-fullpage.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page-templates/template-fullpage.php",
+		"oF": 0
+		},
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -202,7 +210,7 @@
 		},
 	"/screenshot.png": {
 		"ft": 32768,
-		"iS": 81935,
+		"iS": 64523,
 		"oA": 0,
 		"oAP": "/screenshot.png",
 		"oF": 0,

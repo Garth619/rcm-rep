@@ -32,27 +32,18 @@
 <style>
 
 
-<?php the_field( 'review_css','option'); ?>
+
 
 </style>
 
 <?php wp_head(); ?>
 
-<?php the_field('schema_code', 'option'); ?>
-
-<?php the_field('analytics_code', 'option'); ?>
 
 </head>
 
 <body <?php body_class(); ?>>
 	
-	
-	<header>
-		
-		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-		
-	</header>
-				
+
 
 
 			
