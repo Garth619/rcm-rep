@@ -200,14 +200,6 @@
 		"oAP": "/page-templates/template-fullpage.php",
 		"oF": 0
 		},
-	"/page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page.php",
-		"oF": 0
-		},
 	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 64523,
@@ -258,19 +250,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/_lity.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -293,136 +272,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_not-found.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-attbio.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-attbio.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-blog.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-blog.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-contact.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-contact.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-default.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-default.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-meetteam.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-meetteam.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-pa-directory.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-pa-directory.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-results.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-results.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-testimonials.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-testimonials.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_page-video.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_page-video.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -466,7 +315,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/homepage/_section_one.scss": {
+	"/scss/fullpage/_section_one.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -474,7 +323,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/homepage/_section_one.css",
+		"oAP": "/scss/fullpage/_section_one.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -524,7 +373,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -1974,7 +1823,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "http://rcm-rep.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
