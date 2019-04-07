@@ -12,5 +12,37 @@ $themePath: '/wp-content/themes/rcmrep/';
 	font-style: normal;
 }
 
+@mixin muli_regular {
+  font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin muli_semibold {
+  font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@mixin muli_extrabold {
+  font-family: 'Muli', sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
 
 
+
+// color
+
+$greylight: #00adc5;
+$greytext: #6c6c6c;
+$greytexttwo: #464545;
+$bluedark: #2f5479;
+$black: #1f1f1f;
+
+$fb: #2c69c4;
+
+$bluegrad: linear-gradient(to right, #238fc1 0%,#4174be 100%);
+
+$star: #f0c764;
+$stargrey: #aeaeae;

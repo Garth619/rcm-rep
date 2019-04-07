@@ -85,6 +85,36 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/images/fb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/fb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/star.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/star.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -191,14 +221,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"/page-templates/template-fullpage.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page-templates/template-fullpage.php",
-		"oF": 0
 		},
 	"/screenshot.png": {
 		"ft": 32768,
@@ -315,7 +337,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/fullpage/_section_one.scss": {
+	"/scss/scss-fullpage/_section_socialmedia_box.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -323,7 +345,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/fullpage/_section_one.css",
+		"oAP": "/scss/scss-fullpage/_section_socialmedia_box.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/scss-fullpage/_section_top_banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/scss-fullpage/_section_top_banner.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -357,6 +392,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/style.css.map",
+		"oF": 0
+		},
+	"/template-fullpage/sections-fullpage/section-socialmediabox.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-fullpage/sections-fullpage/section-socialmediabox.php",
+		"oF": 0
+		},
+	"/template-fullpage/sections-fullpage/section-topbanner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-fullpage/sections-fullpage/section-topbanner.php",
+		"oF": 0
+		},
+	"/template-fullpage/template-fullpage.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-fullpage/template-fullpage.php",
 		"oF": 0
 		}
 	},
