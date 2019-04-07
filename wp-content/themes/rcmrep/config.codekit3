@@ -337,6 +337,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/scss-fullpage/_section-formbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/scss-fullpage/_section-formbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/scss-fullpage/_section_socialmedia_box.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -392,6 +405,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/style.css.map",
+		"oF": 0
+		},
+	"/template-fullpage/sections-fullpage/section-formbox.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-fullpage/sections-fullpage/section-formbox.php",
 		"oF": 0
 		},
 	"/template-fullpage/sections-fullpage/section-socialmediabox.php": {
