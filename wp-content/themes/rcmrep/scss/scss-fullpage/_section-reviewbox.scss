@@ -1,0 +1,91 @@
+section#reviewbox{
+	display: flex;
+	flex-wrap:wrap;
+	padding:0;
+}
+
+
+.review_single {
+	text-align: center;
+	height:455px;
+	flex-basis:50%;
+	padding:65px;
+	&:nth-of-type(1) {
+		border-right:1px solid $greyline;
+		border-bottom:1px solid $greyline;
+	}
+	&:nth-of-type(2) {
+		border-bottom:1px solid $greyline;
+	}
+	&:nth-of-type(3) {
+		border-right:1px solid $greyline;
+	}
+	h3 {
+		text-transform: uppercase;
+		color:$black;
+		font-size: 18px;
+		letter-spacing: 0.12em;
+		margin-bottom:10px;
+		@include muli_extrabold;
+	}
+	span.review_name {
+		color:$greytext;
+		display: block;
+		font-size:16px;
+		letter-spacing: 0.08em;
+		@include muli_semibold;
+	}
+	.review_stars {
+		display: flex;
+		justify-content: center;
+		margin-top:22px;
+		margin-bottom:33px;
+		svg#star {
+			width:30px;
+			height:30px;
+			margin:0 3px;
+			fill:$star;
+		}
+		.grey {
+			svg#star {
+				fill:$stargrey;
+			}
+		}
+	}
+	p {
+		color:$greytext;
+		font-size:18px;
+		line-height: 26px;
+		margin:0 auto 15px;
+		letter-spacing: 0.08em;
+		max-width:400px;
+		@include muli_light;
+	}
+	span.read_more {
+		color:$blue;
+		font-size:16px;
+		letter-spacing: 0.09em;
+		display: block;
+		padding-top:9px;
+		cursor: pointer;
+		@include muli_bold;
+	}
+}
+
+
+.see_all_reviews {
+	width: 100%;
+  max-width: 1020px;
+  margin:0 auto;
+  text-align: right;
+  position: relative;
+  top:-44px;
+  span {
+	  display: inline-block;
+	  font-size: 14px;
+	  letter-spacing: 0.09em;
+	  color:$blue;
+	  cursor: pointer;
+	  @include muli_bold;
+  }
+}
