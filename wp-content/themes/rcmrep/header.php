@@ -31,7 +31,7 @@
 
 <style>
 
-	@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,800');
+	@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800');
 
 </style>
 

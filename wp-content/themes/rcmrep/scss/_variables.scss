@@ -24,6 +24,12 @@ $themePath: '/wp-content/themes/rcmrep/';
 	font-style: normal;
 }
 
+@mixin muli_bold {
+  font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
 @mixin muli_extrabold {
   font-family: 'Muli', sans-serif;
 	font-weight: 800;
@@ -37,6 +43,8 @@ $themePath: '/wp-content/themes/rcmrep/';
 $greylight: #00adc5;
 $greytext: #6c6c6c;
 $greytexttwo: #464545;
+$blue:#4174be;
+$bluelight: #00adc5;
 $bluedark: #2f5479;
 $black: #1f1f1f;
 
