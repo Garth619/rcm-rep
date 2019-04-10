@@ -1,0 +1,26 @@
+footer {
+	width:100%;
+	padding:35px 0;
+	background: $bluedark;
+}
+
+
+.copyright {
+	text-align: center;
+	ul {
+		list-style: none;
+		li {
+			display: inline-block;
+			color:$white;
+			text-transform: uppercase;
+			font-size:14px;
+			line-height: 20px;
+			letter-spacing: 0.1em;
+			@include muli_regular;
+			a {
+				color:$white;
+				text-decoration: none;
+			}
+		}
+	}
+}

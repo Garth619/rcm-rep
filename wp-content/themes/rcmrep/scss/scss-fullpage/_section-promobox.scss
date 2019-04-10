@@ -5,8 +5,53 @@ section#promobox {
 
 
 .promo_slider {
-	
+	.slick-dots {
+		margin:28px 0 0;
+		position: static;
+		bottom: 0px;
+		li.slick-active {
+			button {
+				&:before {
+					background: $bluelight;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					background: $bluelight;
+				}
+			}
+		}
+		li {
+			margin:0 10px;
+			width:33px;
+			height:2px;
+			button {
+				width:33px;
+				height:2px;
+				padding:0;
+				&:before {
+					content:"";
+					width:33px;
+					height:2px;
+					opacity: 1;
+					background: $blue;
+					transition: all 200ms ease-in-out;
+				}
+			}
+		}
+	}
 }
+
+.slick-slide {
+    margin: 0 27px;
+    padding:5px 0;
+  }
+  /* the parent */
+  .slick-list {
+    margin: 0 -27px;
+  }
 
 
 .promo_single_slide {
@@ -28,8 +73,8 @@ section#promobox {
 			}
 		}
 		.promo_content {
-			background: #fff;
-			padding:30px 33px;
+			background: $white;
+			padding:30px 33px 40px;
 			h3 {
 				text-transform: uppercase;
 				color:$black;

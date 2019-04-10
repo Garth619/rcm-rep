@@ -262,14 +262,13 @@ jQuery(document).ready(function($){
 --------------------------------------------------------------------------------------- */
 
 
-/*
-$('.sec_three_slider').slick({
+
+$('.promo_slider').slick({
   infinite: true,
-  slidesToShow: 6,
-  slidesToScroll: 6,
-	arrows:true,
-	prevArrow:".arrow_left",
-	nextArrow:".arrow_right",
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  dots:true,
+	arrows:false,
 	responsive: [
     {
       breakpoint: 1450,
@@ -277,27 +276,11 @@ $('.sec_three_slider').slick({
       slidesToShow: 5,
       slidesToScroll: 5,
      }
-   },
-   {
-      breakpoint: 1100,
-      settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      dots:true,
-     }
-   },
-   {
-      breakpoint: 767,
-      settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots:true,
-     }
    }
 	]
  });
  
-*/
+
  
 
 	
