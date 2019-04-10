@@ -40,21 +40,29 @@ $themePath: '/wp-content/themes/rcmrep/';
 
 // color
 
-$greylight: #00adc5;
-$greytext: #6c6c6c;
-$greytexttwo: #464545;
-$greyline: #f1f1f1;
-$blue:#4174be;
-$bluelight: #00adc5;
-$bluedark: #2a4259;
-$black: #1f1f1f;
+//$greylight: red;
 
-$white: #fff;
+$greytexttwo: #464545; // h1 text color
 
-$fb: #2c69c4;
+
+$greytext: #6c6c6c; // light color for small text
+
+$greyline: #f1f1f1; // review box divider
+$blue:#4174be; // form aster, review read mores, see all reviews and reg state promo pager
+$bluelight: #00adc5; // hover/active state for promo pager
+$bluedark: #2a4259; // make these separate. the logo placer holder if no image and footer bg
+$black: #1f1f1f; // h2s, h3s and labels
+
+$white: #fff; // make box bg separate. make logo border separate. form submit text color, make footer seprate
+
+$fb: #2c69c4; // need social media fills for all svgs, this will be ongoing
+
+$dropshadow:0px 1px 6px 0px rgba(0, 0, 0, 0.11); // all drop shadows
+
 
 $bluegrad: linear-gradient(to right, #00adc5 0%,#4174be 100%);
 $bluegraddiagonal:linear-gradient(135deg, #00adc5 0%,#4174be 100%);
 
-$star: #f0c764;
-$stargrey: #aeaeae;
+$star: #f0c764; // reg
+$stargrey: #aeaeae; // hover
+$starshadow: 0px 2px 6px rgba(0,0,0,0.15); // text shadow

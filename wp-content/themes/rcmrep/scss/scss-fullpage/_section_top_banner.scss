@@ -3,6 +3,20 @@ section#top_banner {
 	width:100%;
 	background: $bluegraddiagonal;
 	padding:0 75px;
+	position: relative;
+	img.top_banner_img {
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		opacity: 0.08;
+		height:100%;
+		object-fit:cover;
+	}
+	.top_banner_inner {
+		position: relative;
+		z-index: 1;
+	}
 }
 
 .top_banner_inner {
@@ -23,22 +37,39 @@ section#top_banner {
 .five_star_wrapper {
 	display: flex;
 	justify-content: center;
-	margin:40px 0 0;
+	margin:40px auto 0;
+	max-width:485px;
 	span.star {
-		width:80px;
-		height:80px;
-		margin:0 7px;
+		font-size:85px;
+		margin:0 4px;
 		cursor: pointer;
-		&:hover {
-			svg#star {
-				fill:$star;
-			}
-		}
-		svg#star {
-			fill:$stargrey;
-			transition: all 200ms ease-in-out;
-		}
+		text-shadow:$starshadow;
 	}
+	span.star, span.star:hover ~ span.star {
+	 	color: $stargrey;
+	  transition: color 300ms;
+		transition-delay: 0;
+	}
+	&:hover span.star {
+	 	color: $star;
+	}
+	&:hover span.star:nth-child(2) {
+	 	transition-delay: 30ms;
+	}
+	&:hover span.star:nth-child(3) {
+  		transition-delay: 70ms;
+	}
+	&:hover span.star:nth-child(4) {
+  		transition-delay: 100ms;
+	}
+	&:hover span.star:nth-child(5) {
+  		transition-delay: 130ms;
+	}
+	&:hover span.star {
+  		cursor: pointer;
+		font-style: normal;
+	}
+	//https://codepen.io/blixt/pen/QyNXEp
 }
 
 
