@@ -41,37 +41,7 @@ jQuery(document).ready(function($){
   		
   		});
   		
-  		
-  		// background images (one time load, does not reflect media queries or window width..yet)
-  		
-  		if (result) {
-	  		
-	  		var sectionOne = '#section_one';
-	  		
-	  		if ($(sectionOne).attr('data-webpbg')) {
-		  		
-		  		var imgBg = $(sectionOne).data('webpbg');
-		  		
-		  		$(sectionOne).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  		}
-	  		
-	  	}
-	  	
-	  	
-	  	else {
-		  	
-		  	if ($('#section_one').attr('data-jpgbg')) {
-		  		
-		  		var imgBg = $('#section_one').data('jpgbg');
-		  		
-		  		$('#section_one').css('background-image', 'url(' + imgBg + ')');
-		  		
-	  		}
-		  	
-	  	}
-  		
-			// console.log(result);
+
 	
 		});
 		
@@ -117,57 +87,6 @@ jQuery(document).ready(function($){
     // createWaypoint('section_two', null, null, '100%', loadImages, false);
 
 
-
-
-
-
-
-     /* Wistia - Call function when script needs to be loaded either by hover or waypoints
-     --------------------------------------------------------------------------------------- */
-
-    //function wistiaLoad() {
-     // jQuery.getScript('https://fast.wistia.com/assets/external/E-v1.js', function(data, textStatus, jqxhr) {
-        //console.log('wistia load:', textStatus); // Success
-     // });
-   // }
-
-    // examples:
-
-    // jQuery(".banner-box-1").one("mouseenter", function(e){
-    //   wistiaLoad();
-    // });
-
-    // createWaypoint('section-1', null, null, '100%', wistiaLoad, false)
-    
-    
-    $('.wistia_embed').click(function () {
-        //make sure to only load if Wistia is not already loaded
-        if (typeof Wistia === 'undefined') {
-            $.getScript("https://fast.wistia.com/assets/external/E-v1.js", function (data, textStatus, jqxhr) {
-                // We got the text but, it's possible parsing could take some time on slower devices. Unfortunately, js parsing does not have
-                // a hook we can listen for. So we need to set an interval to check when it's ready 
-                var interval = setInterval(function () {
-                    if ($('.wistia_embed').attr('id') && window._wq) {
-                        var videoId = $('.wistia_embed').attr('id').split('-')[1];
-                        window._wq = window._wq || [];
-                        _wq.push({
-                            id: videoId,
-                            onReady: function (video) {
-                                $('.wistia_click_to_play').trigger('click');
-                            }
-                        });
-                        clearInterval(interval);
-                    }
-                }, 100)
-            });
-        }
-    })
-   
-    
-    
-    
-    
-    
 
 
 
@@ -231,27 +150,6 @@ jQuery(document).ready(function($){
    
 
 
-		
-		/* Live Chat - Call function when script needs to be loaded either by hover, click or waypoints
-   --------------------------------------------------------------------------------------------------- */ 
-   
-   
-   
-   function livechatLoad() {
-	   if(my_data.live_chat) {
-      jQuery.getScript(my_data.live_chat, function(data, textStatus, jqxhr) {
-        console.log('Live Chat load:', textStatus); // Success
-      });
-      // alert( my_data.live_chat);
-      }
-    }
-   
-   
-   // createWaypoint('section_one', null, null, -100, livechatLoad, false);
-   // createWaypoint('internal_trigger', null, null, -100, livechatLoad, false);
-
-
-
 
         
     
@@ -284,12 +182,6 @@ $('.promo_slider').slick({
  
 
 	
-
-/* Remove "#" from menu anchor items to avoid jump to the top of the page
---------------------------------------------------------------------------------------- */
-
-
-$("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
   

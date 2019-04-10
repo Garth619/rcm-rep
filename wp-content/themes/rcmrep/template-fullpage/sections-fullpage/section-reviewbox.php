@@ -8,25 +8,11 @@
 		
 		<div class="review_stars">
 			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div class="grey">
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div class="grey">
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star grey">★</span>
+			<span class="star grey">★</span>			
 			
 		</div><!-- review_stars -->
 		
@@ -44,25 +30,11 @@
 		
 		<div class="review_stars">
 			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
 			
 		</div><!-- review_stars -->
 		
@@ -80,25 +52,11 @@
 		
 		<div class="review_stars">
 			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div class="grey">
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star grey">★</span>
 			
 		</div><!-- review_stars -->
 		
@@ -116,25 +74,11 @@
 		
 		<div class="review_stars">
 			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div>
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div class="grey">
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
-			
-			<div class="grey">
-				<?php echo file_get_contents("wp-content/themes/rcmrep/images/star.svg"); ?>
-			</div>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star">★</span>
+			<span class="star grey">★</span>
+			<span class="star grey">★</span>
 			
 		</div><!-- review_stars -->
 		

@@ -38,18 +38,15 @@ section#reviewbox{
 	.review_stars {
 		display: flex;
 		justify-content: center;
-		margin-top:22px;
+		margin-top: 17px;
 		margin-bottom:33px;
-		svg#star {
-			width:30px;
-			height:30px;
-			margin:0 3px;
-			fill:$star;
+		span.star {
+			font-size: 35px;
+			font-style: normal;
+			color:$star
 		}
-		.grey {
-			svg#star {
-				fill:$stargrey;
-			}
+		span.star.grey {
+			color:$stargrey;
 		}
 	}
 	p {
@@ -68,7 +65,11 @@ section#reviewbox{
 		display: block;
 		padding-top:9px;
 		cursor: pointer;
+		transition: all 200ms ease-in-out;
 		@include muli_bold;
+		&:hover {
+			color:$bluelight;
+		}
 	}
 }
 
@@ -86,6 +87,10 @@ section#reviewbox{
 	  letter-spacing: 0.09em;
 	  color:$blue;
 	  cursor: pointer;
+	  transition: all 200ms ease-in-out;
 	  @include muli_bold;
+	  &:hover {
+		  color:$bluelight;
+	  }
   }
 }
