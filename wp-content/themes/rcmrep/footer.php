@@ -11,11 +11,6 @@
 	
 </footer>
 
-<div class="reviews_overlay">
-	
-	
-	
-</div><!-- reviews_overlay -->
 
 <?php wp_footer();?>
 

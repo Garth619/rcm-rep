@@ -1,4 +1,3 @@
-// @codekit-prepend 'waypoints.js'
 // @codekit-prepend 'slick.js'
 // @codekit-prepend 'modernizr-webp.js'
 
@@ -110,50 +109,7 @@ jQuery(document).ready(function($){
 
 		
 		
-		/* Waypoints
-     --------------------------------------------------------------------------------------- */
-
-
-    function createWaypoint(triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
-      if(jQuery('#' + triggerElementId).length) {
-        var waypoint = new Waypoint({
-          element: document.getElementById(triggerElementId),
-          handler: function (direction) {
-            if (direction === 'down') {
-              jQuery(animatedElement).addClass(className);
-
-              if (typeof functionName === 'function') {
-                functionName();
-                this.destroy();
-              }
-
-            } else if (direction === 'up') {
-              if (reverse) {
-                jQuery(animatedElement).removeClass(className);
-              }
-
-            }
-          },
-          offset: offsetVal
-          // Integer or percent
-          // 500 means when element is 500px from the top of the page, the event triggers
-          // 50% means when element is 50% from the top of the page, the event triggers
-        });
-      }
-    }
-		
-		
-		
-
-    // createWaypoint('section_one', '.sticky_header', 'visible', -300, null, true);
-    
-   
-
-
-
-        
-    
-
+		 
 
 
 /* Slick Carousel ( http://kenwheeler.github.io/slick/ )
@@ -178,10 +134,30 @@ $('.promo_slider').slick({
 	]
  });
  
-
  
 
+ 
+/* Reviews Overlay
+--------------------------------------------------------------------------------------- */
 	
+
+$('span.read_more, .see_all_reviews span').on('click', function(e) {
+  
+	$('.reviews_overlay').addClass('open');
+	$('body').addClass('fixed');
+
+});
+
+
+
+$('.review_close').on('click', function(e) {
+  
+	$('.reviews_overlay').removeClass('open');
+	$('body').removeClass('fixed');
+
+});
+
+
 
 
   

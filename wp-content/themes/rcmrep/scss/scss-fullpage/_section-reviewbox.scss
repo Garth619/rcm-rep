@@ -11,14 +11,14 @@ section#reviewbox{
 	flex-basis:50%;
 	padding:65px;
 	&:nth-of-type(1) {
-		border-right:1px solid $greyline;
-		border-bottom:1px solid $greyline;
+		border-right:1px solid $review_divider;
+		border-bottom:1px solid $review_divider;
 	}
 	&:nth-of-type(2) {
-		border-bottom:1px solid $greyline;
+		border-bottom:1px solid $review_divider;
 	}
 	&:nth-of-type(3) {
-		border-right:1px solid $greyline;
+		border-right:1px solid $review_divider;
 	}
 	h3 {
 		text-transform: uppercase;
@@ -29,7 +29,7 @@ section#reviewbox{
 		@include muli_extrabold;
 	}
 	span.review_name {
-		color:$greytext;
+		color:$bodytext;
 		display: block;
 		font-size:16px;
 		letter-spacing: 0.08em;
@@ -50,7 +50,7 @@ section#reviewbox{
 		}
 	}
 	p {
-		color:$greytext;
+		color:$bodytext;
 		font-size:18px;
 		line-height: 26px;
 		margin:0 auto 15px;
@@ -93,4 +93,62 @@ section#reviewbox{
 		  color:$bluelight;
 	  }
   }
+}
+
+.reviews_overlay {
+	position: fixed;
+	z-index: 5;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 200ms ease-in-out;
+	background: rgba(0,0,0,0.5);
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.reviews_overlay.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.reviews_inner_overlay {
+	width:100%;
+	position: relative;
+	margin:130px auto 75px;
+}
+
+
+.review_close {
+	width:45px;
+	height:45px;
+	position: absolute;
+	top:0;
+	right:0;
+	cursor: pointer;
+	background: $blue;
+	&:before, &:after {
+		content:"";
+		display: block;
+		position: absolute;
+		top:21px;
+		left:6px;
+		width:35px;
+		height:2px;
+		background: $white;
+	}
+	&:before {
+		transform: rotate(-45deg);
+	}
+	&:after {
+		transform: rotate(45deg);
+	}
+}
+
+.reviews_feed {
+	width:100%;
+	height:500px;
 }

@@ -93,3 +93,19 @@
 <div class="see_all_reviews desktop">
 	<span>See All Reviews (23)</span><!-- see_all_reviews -->
 </div>
+
+<div class="reviews_overlay">
+	
+	<div class="reviews_inner_overlay rep_box">
+		
+		<div class="review_close"></div><!-- review_close -->
+		
+		<div class="reviews_feed">
+			
+			All Reviews go here
+			
+		</div><!-- reviews_feed -->
+		
+	</div><!-- reviews_inner_overlay -->
+	
+</div><!-- reviews_overlay -->
