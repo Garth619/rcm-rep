@@ -110,26 +110,38 @@ section#promobox {
 
 @media screen and (max-width: 1025px) {
 	
-	section#promobox {
-		padding:0px;
-	}
-	
-	.promo_slider {
-		display: flex;
-		overflow-x: scroll;
-	}
-	
+
 	.promo_single_slide {
-		flex-basis:325px;
-		flex-shrink: 0;
-		margin-right:45px;
+		a {
+			.promo_img_wrapper {
+				height:260px;
+			}
+			.promo_content {
+				height: 175px;
+			}
+		}
 	}
+
 	
 	
 } /* Media Query */
 
 
-
+@media screen and (max-width: 1010px) {
+	
+	.promo_single_slide {
+		a {
+			.promo_img_wrapper {
+				
+			}
+			.promo_content {
+				height: 195px;
+			}
+		}
+	}
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 890px) {
@@ -144,7 +156,21 @@ section#promobox {
 @media screen and (max-width: 767px) {
 	
 	
+	section#promobox {
+		padding:0 40px;
+	}
 	
+	
+	.promo_single_slide {
+		a {
+			.promo_img_wrapper {
+				
+			}
+			.promo_content {
+				height: auto;
+			}
+		}
+	}
 	
 	
 	

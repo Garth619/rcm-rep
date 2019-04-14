@@ -125,8 +125,11 @@ $('.promo_slider').slick({
 	arrows:false,
 	responsive: [
     {
-      breakpoint: 1025,
-      settings: 'unslick',
+      breakpoint: 880,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+     }
    }
 	]
  });

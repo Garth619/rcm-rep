@@ -188,7 +188,10 @@ section#reviewbox{
 @media screen and (max-width: 990px) {
 	
 	section#reviewbox {
-		display: block;
+		
+		.rep_box {
+			display: block;
+		}
 	}
 	
 	.review_single {
