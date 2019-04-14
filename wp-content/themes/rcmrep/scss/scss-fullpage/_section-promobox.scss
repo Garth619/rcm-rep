@@ -1,6 +1,7 @@
 section#promobox {
-	max-width:1020px;
+	max-width:1170px;
 	margin:0 auto 60px;
+	padding:0 75px;
 }
 
 
@@ -75,6 +76,7 @@ section#promobox {
 		.promo_content {
 			background: $white;
 			padding:30px 33px 40px;
+			height:171px;
 			h3 {
 				text-transform: uppercase;
 				color:$black;
@@ -94,3 +96,56 @@ section#promobox {
 		}
 	}
 }
+
+@media screen and (max-width: 1066px) {
+	
+	
+	section#promobox {
+		padding:0 60px;
+	}
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1025px) {
+	
+	section#promobox {
+		padding:0px;
+	}
+	
+	.promo_slider {
+		display: flex;
+		overflow-x: scroll;
+	}
+	
+	.promo_single_slide {
+		flex-basis:325px;
+		flex-shrink: 0;
+		margin-right:45px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 890px) {
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+} /* Media Query */

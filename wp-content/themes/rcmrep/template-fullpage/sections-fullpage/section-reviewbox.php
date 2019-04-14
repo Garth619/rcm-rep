@@ -1,4 +1,6 @@
-<section id="reviewbox" class="rep_box">
+<section id="reviewbox" class="section_padding">
+	
+	<div class="rep_box">
 	
 	<div class="review_single">
 		
@@ -87,6 +89,8 @@
 		<span class="read_more">Read More</span><!-- read_more -->
 		
 	</div><!-- review_single -->
+	
+	</div><!-- rep_box -->
 	
 </section><!-- reviewbox -->
 

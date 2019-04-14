@@ -25,5 +25,3 @@
 	
 </section><!-- top_banner -->
 		
-
-

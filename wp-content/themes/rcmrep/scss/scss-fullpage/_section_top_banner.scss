@@ -74,5 +74,30 @@ section#top_banner {
 
 
 
+@media screen and (max-width: 1066px) {
+	
+	section#top_banner {
+		padding:0 60px;
+	}
+	
+	.top_banner_inner {
+		padding: 88px 0 450px;
+		h1 {
+			font-size: 41px;
+			line-height: 50px;
+		}
+	}
+	
+	.five_star_wrapper {
+		margin:20px auto 0;
+		span.star {
+			font-size: 70px;
+		}
+	}
+
+	
+	
+} /* Media Query */
+
 
 

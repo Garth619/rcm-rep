@@ -125,11 +125,8 @@ $('.promo_slider').slick({
 	arrows:false,
 	responsive: [
     {
-      breakpoint: 1450,
-      settings: {
-      slidesToShow: 5,
-      slidesToScroll: 5,
-     }
+      breakpoint: 1025,
+      settings: 'unslick',
    }
 	]
  });

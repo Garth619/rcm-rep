@@ -1,12 +1,16 @@
-<section id="social_media_box" class="rep_box">
+
+
+<section id="social_media_box" class="section_padding">
 	
-	<div class="logo_wrapper">
+	<div class="rep_box">
+	
+		<div class="logo_wrapper">
 		
-		<div class="placeholder">
+			<div class="placeholder">
 			
-			<span>Logo</span>
+				<span>Logo</span>
 			
-		</div><!-- placeholder -->
+			</div><!-- placeholder -->
 		
 		
 		
@@ -44,5 +48,7 @@
 		</a>
 		
 	</div><!-- social_media_wrapper -->
+	
+	</div><!-- rep_box -->
 	
 </section><!-- social_media_box -->
