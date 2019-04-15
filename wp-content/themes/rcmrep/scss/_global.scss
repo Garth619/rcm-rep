@@ -69,6 +69,16 @@ p {
 }
 
 
+body.error404 {
+	.rep_box {
+		margin-top:35px;
+	}
+	footer {
+		display: none;
+	}
+}
+
+
 @media screen and (max-width: 1066px) {
 	
 	

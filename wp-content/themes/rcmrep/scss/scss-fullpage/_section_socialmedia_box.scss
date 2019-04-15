@@ -41,7 +41,6 @@ section#social_media_box {
 		color:$black;
 		font-size: 17px;
 		letter-spacing: 0.12em;
-		
 		@include muli_extrabold;
 	}
 	span.company_location {
@@ -62,6 +61,9 @@ section#social_media_box {
 	margin:60px auto 40px;
 	max-width:815px;
 	a {
+		svg {
+			width:100%;
+		}
 		svg#fb {
 			.fb-cls-1 {
         fill:$fb;
