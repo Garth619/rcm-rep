@@ -47,13 +47,9 @@ section#reviewbox{
 		}
 	}
 	p {
-		color:$bodytext;
-		font-size:18px;
-		line-height: 26px;
-		margin:0 auto 15px;
-		letter-spacing: 0.08em;
-		max-width:400px;
-		@include muli_light;
+		max-width:420px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	span.read_more {
 		color:$blue;
@@ -100,6 +96,7 @@ span.see_all_reviews_mobile {
 .reviews_overlay {
 	position: fixed;
 	z-index: 5;
+	padding:0 75px;
 	top:0;
 	left:0;
 	width:100%;
@@ -107,7 +104,7 @@ span.see_all_reviews_mobile {
 	opacity: 0;
 	visibility: hidden;
 	transition: all 200ms ease-in-out;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.6);
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
@@ -120,7 +117,38 @@ span.see_all_reviews_mobile {
 .reviews_inner_overlay {
 	width:100%;
 	position: relative;
-	margin:130px auto 75px;
+	margin: 70px auto 75px;
+	overflow: hidden;
+}
+
+.reviews_inner_overlay.rep_box {
+	padding:0;
+}
+
+
+.reviews_feed {
+	overflow-y: scroll;
+	margin-top:10px;
+	-webkit-overflow-scrolling: touch;
+	.review_single {
+		padding:65px 65px 35px;
+		height:auto;
+		border-bottom: 1px solid #f1f1f1;
+		&:nth-of-type(1) {
+			border-right:0;
+		}
+		.review_stars {
+			justify-content: flex-start;
+			span.star {
+				margin:0 3px 0 0;
+			}
+		}
+		p {
+			margin:0px 0px 15px 0px;
+			max-width:100%;
+			
+		}
+	}
 }
 
 
@@ -132,6 +160,7 @@ span.see_all_reviews_mobile {
 	right:0;
 	cursor: pointer;
 	background: $blue;
+	z-index:1;
 	&:before, &:after {
 		content:"";
 		display: block;
@@ -174,6 +203,11 @@ span.see_all_reviews_mobile {
 	
 	
 	.see_all_reviews {
+		padding:0 60px;
+	}
+	
+	
+	.reviews_overlay {
 		padding:0 60px;
 	}
 	
@@ -261,6 +295,9 @@ span.see_all_reviews_mobile {
 		&:nth-of-type(2) {
 			padding-top:35px;
 		}
+		span.review_name {
+			font-size: 15px;
+		}
 		.review_stars {
 			margin-top: 11px;
 			margin-bottom: 18px;
@@ -268,13 +305,8 @@ span.see_all_reviews_mobile {
 				font-size: 31px;
 			}
 		}
-		p {
-			font-size:14px;
-			line-height: 23px;
-			max-width:100%;
-		}
 		span.read_more {
-			padding-top: 0px;
+			padding-top: 5px;
 			font-size: 15px;
 		}
 	}
@@ -285,6 +317,40 @@ span.see_all_reviews_mobile {
 		font-size: 14px;
 		padding: 16px 30px;
 	}
+	
+	
+	.reviews_overlay {
+		overflow-y: hidden;
+		padding:0;
+	}
+	
+	.reviews_inner_overlay {
+		margin:0;
+		
+	}
+	
+	.reviews_feed {
+		height:100vh;
+		.review_single {
+			padding:45px 30px 30px 30px;
+			&:nth-of-type(1), &:nth-of-type(2) {
+				border-bottom: 1px solid #f1f1f1;
+				padding:45px 30px 30px 30px;
+				&:after {
+					display: none;
+				}
+			}
+			&:nth-of-type(2) {
+				
+			}
+			.review_stars {
+				span.star {
+					font-size: 27px;
+				}
+			}
+		}
+	}
+	
 	
 	
 	

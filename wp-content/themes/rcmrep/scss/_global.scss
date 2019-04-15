@@ -3,6 +3,7 @@
 body {
 	background:$bodybg;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 
@@ -58,6 +59,15 @@ h3.fullpage_h3 {
 	@include muli_extrabold;
 }
 
+p {
+	color:$bodytext;
+	font-size:18px;
+	line-height: 26px;
+	margin:0 0 15px;
+	letter-spacing: 0.08em;
+	@include muli_light;
+}
+
 
 @media screen and (max-width: 1066px) {
 	
@@ -99,6 +109,14 @@ h3.fullpage_h3 {
 		line-height: 20px;
 		margin-bottom: 3px;
 	}
+	
+p {
+	font-size:15px;
+	line-height: 20px;
+	max-width:100%;
+}
+	
+	
 	
 } /* Media Query */
 

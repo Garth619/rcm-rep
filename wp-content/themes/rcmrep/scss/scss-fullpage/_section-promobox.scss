@@ -2,6 +2,7 @@ section#promobox {
 	max-width:1170px;
 	margin:0 auto 60px;
 	padding:0 75px;
+	overflow: hidden;
 }
 
 
@@ -77,6 +78,7 @@ section#promobox {
 			background: $white;
 			padding:30px 33px 40px;
 			height:171px;
+/*
 			span.promo_description {
 				font-size:18px;
 				letter-spacing: 0.08em;
@@ -84,6 +86,7 @@ section#promobox {
 				color:$bodytext;
 				@include muli_regular;
 			}
+*/
 		}
 	}
 }
@@ -149,6 +152,13 @@ section#promobox {
 	
 	section#promobox {
 		padding:0 20px;
+		margin: 0 auto 30px;
+	}
+	
+	.promo_slider {
+		.slick-dots {
+    		margin: 10px 0 0;
+    	}
 	}
 	
 	
@@ -159,6 +169,9 @@ section#promobox {
 			}
 			.promo_content {
 				height: auto;
+				p.fullpage_p {
+					margin-bottom:0;
+				}
 			}
 		}
 	}

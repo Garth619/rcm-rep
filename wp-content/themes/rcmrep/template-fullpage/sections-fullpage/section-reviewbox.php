@@ -108,7 +108,225 @@
 		
 		<div class="reviews_feed">
 			
-			All Reviews go here
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
+			
+			<div class="review_single">
+		
+				<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
+		
+				<span class="review_name">- Name</span><!-- review_name -->
+		
+				<div class="review_stars">
+			
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star">★</span>
+					<span class="star grey">★</span>
+					<span class="star grey">★</span>
+			
+				</div><!-- review_stars -->
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultr m dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ices gravida. Risus commodo viverra maece</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maece</p>
+	
+			</div><!-- review_single -->
 			
 		</div><!-- reviews_feed -->
 		

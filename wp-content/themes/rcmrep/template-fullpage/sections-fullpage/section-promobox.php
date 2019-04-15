@@ -16,7 +16,7 @@
 					
 					<h3 class="fullpage_h3">Lorem Ipsum Dolor Sit</h3><!-- fullpage_h3 --><!-- fullpage_h3 -->
 					
-					<span class="promo_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span><!-- promo_description -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 					
 				</div><!-- promo_content -->
 				
@@ -38,7 +38,7 @@
 					
 					<h3 class="fullpage_h3">Lorem Ipsum Dolor Sit</h3><!-- fullpage_h3 -->
 					
-					<span class="promo_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span><!-- promo_description -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 					
 				</div><!-- promo_content -->
 				
@@ -60,7 +60,7 @@
 					
 					<h3 class="fullpage_h3">Lorem Ipsum Dolor Sit</h3><!-- fullpage_h3 -->
 					
-					<span class="promo_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span><!-- promo_description -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 					
 				</div><!-- promo_content -->
 				
@@ -82,7 +82,7 @@
 					
 					<h3 class="fullpage_h3">Lorem Ipsum Dolor Sit</h3><!-- fullpage_h3 -->
 					
-					<span class="promo_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</span><!-- promo_description -->
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 					
 				</div><!-- promo_content -->
 				

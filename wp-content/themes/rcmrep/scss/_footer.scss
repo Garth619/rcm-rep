@@ -24,3 +24,23 @@ footer {
 		}
 	}
 }
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	footer {
+		padding: 19px 0;
+	}
+	
+	.copyright {
+		ul {
+			li {
+				font-size: 12px;
+			}
+		}
+	}
+	    
+	
+	
+} /* Media Query */
