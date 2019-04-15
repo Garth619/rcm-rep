@@ -48,6 +48,17 @@ h2.fullpage_h2 {
 }
 
 
+h3.fullpage_h3 {
+	text-transform: uppercase;
+	color:$black;
+	font-size:18px;
+	line-height: 22px;
+	letter-spacing: 0.12em;
+	margin-bottom: 9px;
+	@include muli_extrabold;
+}
+
+
 @media screen and (max-width: 1066px) {
 	
 	
@@ -72,12 +83,21 @@ h2.fullpage_h2 {
 	
 	.rep_box {
 		padding:50px 30px;
-		margin: 0 auto 35px;
+		margin: 0 auto 25px;
+		&:before {
+			height:2px
+		}
 	}
 	
 	h2.fullpage_h2 {
 		font-size: 20px;
 		line-height: 25px;
+	}
+	
+	h3.fullpage_h3 {
+		font-size:15px;
+		line-height: 20px;
+		margin-bottom: 3px;
 	}
 	
 } /* Media Query */

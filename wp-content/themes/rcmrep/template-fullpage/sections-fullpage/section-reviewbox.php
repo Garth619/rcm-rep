@@ -4,7 +4,7 @@
 	
 	<div class="review_single">
 		
-		<h3>"Lorem Ipsum Dolor"</h3>
+		<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
 		
 		<span class="review_name">- Name</span><!-- review_name -->
 		
@@ -26,7 +26,7 @@
 	
 	<div class="review_single">
 		
-		<h3>"Lorem Ipsum Dolor"</h3>
+		<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
 		
 		<span class="review_name">- Name</span><!-- review_name -->
 		
@@ -48,7 +48,7 @@
 	
 	<div class="review_single">
 		
-		<h3>"Lorem Ipsum Dolor"</h3>
+		<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
 		
 		<span class="review_name">- Name</span><!-- review_name -->
 		
@@ -70,7 +70,7 @@
 	
 	<div class="review_single">
 		
-		<h3>"Lorem Ipsum Dolor"</h3>
+		<h3 class="fullpage_h3">"Lorem Ipsum Dolor"</h3><!-- fullpage_h3 -->
 		
 		<span class="review_name">- Name</span><!-- review_name -->
 		

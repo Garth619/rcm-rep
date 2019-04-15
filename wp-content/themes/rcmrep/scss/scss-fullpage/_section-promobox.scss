@@ -77,15 +77,6 @@ section#promobox {
 			background: $white;
 			padding:30px 33px 40px;
 			height:171px;
-			h3 {
-				text-transform: uppercase;
-				color:$black;
-				font-size:18px;
-				line-height: 22px;
-				letter-spacing: 0.12em;
-				margin-bottom:13px;
-				@include muli_extrabold;
-			}
 			span.promo_description {
 				font-size:18px;
 				letter-spacing: 0.08em;
@@ -157,14 +148,14 @@ section#promobox {
 	
 	
 	section#promobox {
-		padding:0 40px;
+		padding:0 20px;
 	}
 	
 	
 	.promo_single_slide {
 		a {
 			.promo_img_wrapper {
-				
+				height: 225px;
 			}
 			.promo_content {
 				height: auto;
