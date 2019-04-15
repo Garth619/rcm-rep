@@ -3,6 +3,7 @@ section#reviewbox{
 		display: flex;
 		flex-wrap:wrap;
 		padding:0;
+		text-align: center;
 	}
 }
 
@@ -10,19 +11,18 @@ section#reviewbox{
 
 
 .review_single {
-	text-align: center;
 	height:455px;
 	flex-basis:50%;
 	padding:65px;
 	&:nth-of-type(1) {
-		border-right:1px solid $review_divider;
-		border-bottom:1px solid $review_divider;
+		border-right:1px solid $review_divider_desktop;
+		border-bottom:1px solid $review_divider_desktop;
 	}
 	&:nth-of-type(2) {
-		border-bottom:1px solid $review_divider;
+		border-bottom:1px solid $review_divider_desktop;
 	}
 	&:nth-of-type(3) {
-		border-right:1px solid $review_divider;
+		border-right:1px solid $review_divider_desktop;
 	}
 	
 	h3 {
@@ -79,7 +79,7 @@ section#reviewbox{
 }
 
 
-.see_all_reviews {
+.see_all_reviews_desktop {
 	width: 100%;
   max-width: 1170px;
   padding:0 75px;
@@ -99,6 +99,10 @@ section#reviewbox{
 		  color:$bluelight;
 	  }
   }
+}
+
+span.see_all_reviews_mobile {
+	display: none;
 }
 
 .reviews_overlay {
@@ -188,7 +192,6 @@ section#reviewbox{
 @media screen and (max-width: 990px) {
 	
 	section#reviewbox {
-		
 		.rep_box {
 			display: block;
 		}
@@ -196,11 +199,20 @@ section#reviewbox{
 	
 	.review_single {
 		height:auto;
-		&:nth-of-type(1) {
-			border-right:0;
+		padding-bottom:0;
+		&:nth-of-type(1), &:nth-of-type(2) {
+			border:0;
 		}
-		&:nth-of-type(1),&:nth-of-type(2) {
-			border-bottom: 1px solid #f1f1f1;
+		&:nth-of-type(2) {
+			&:after {
+				content:"";
+				margin-top:65px;
+				display: inline-block;
+				width:100%;
+				max-width:290px;
+				height:1px;
+				background: $review_divider_mobile;
+			}	
 		}
 		&:nth-of-type(3), &:nth-of-type(4) {
 			display: none;
@@ -210,7 +222,24 @@ section#reviewbox{
 		}
 	}
 	
+	.see_all_reviews_desktop {
+		display: none;
+	}
 	
+	span.see_all_reviews_mobile {
+		display: inline-block;	
+		margin:0 auto;
+		color:#fff;
+		background:$bluegraddiagonal;
+		text-transform: uppercase;
+		font-size: 15px;
+		letter-spacing: 0.1em;
+		border-radius: 40px;
+		padding:18px 30px;
+		margin:55px 0 65px;
+		cursor: pointer;
+		@include muli_bold;
+	}
 	
 } /* Media Query */
 

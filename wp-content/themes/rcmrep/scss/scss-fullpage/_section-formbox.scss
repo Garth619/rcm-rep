@@ -92,3 +92,39 @@ section#formbox {
 }
 
 
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.gform_wrapper {
+		ul {
+			display: block;
+			margin: 55px 0 0;
+			li {
+				margin-bottom: 33px;
+				label {
+					font-size: 16px;
+				}
+				input, textarea {
+					font-size: 23px;
+					padding: 4px 0 7px;
+				}
+				textarea {
+					height:115px;
+				}
+			}
+		}
+		.gform_footer {
+			padding-top: 7px;
+			input[type="submit"] {
+				font-size: 17px;
+				padding: 17px 57px;
+			}
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+

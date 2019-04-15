@@ -141,7 +141,7 @@ $('.promo_slider').slick({
 --------------------------------------------------------------------------------------- */
 	
 
-$('span.read_more, .see_all_reviews span').on('click', function(e) {
+$('span.read_more, .see_all_reviews span, span.see_all_reviews_mobile').on('click', function(e) {
   
 	$('.reviews_overlay').addClass('open');
 	$('body').addClass('fixed');

@@ -101,3 +101,30 @@ section#top_banner {
 
 
 
+@media screen and (max-width: 767px) {
+	
+	section#top_banner {
+		padding:0 20px;
+	}
+	
+	.top_banner_inner {
+		padding: 60px 0 230px;
+		h1 {
+			font-size:30px;
+			line-height: 38px;
+		}
+	}
+	
+	
+	.five_star_wrapper {
+		max-width:300px;
+		margin: 30px auto 15px;
+		span.star {
+			font-size: 51px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+

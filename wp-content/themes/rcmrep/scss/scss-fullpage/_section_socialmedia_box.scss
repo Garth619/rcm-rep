@@ -2,6 +2,8 @@
 section#social_media_box {
 	margin-top:-270px;
 	text-align: center;
+	position: relative;
+	z-index:1;
 }
 
 .logo_wrapper {
@@ -86,7 +88,7 @@ section#social_media_box {
 	a.google {
 		flex-basis: 25%;
 		position: relative;
-		top:8px;
+		top:4px;
 	}
 }
 
@@ -103,5 +105,44 @@ section#social_media_box {
 	
 	
 	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	section#social_media_box {
+		margin-top: -130px;
+	}
+	
+	
+	.logo_wrapper {
+		width:140px;
+		height:140px;
+		margin: -120px auto 0;
+		.placeholder {
+			span {
+				font-size: 15px;
+			}
+		}
+	}
+	
+	
+	.company_meta {
+		margin: 14px 0 34px;
+		span.company_name {
+			font-size: 15px;
+		}
+		span.company_location {
+			font-size: 13px;
+			margin-top: 7px;
+		}
+	}
+	
+	.social_media_wrapper {
+    margin: 29px auto 0px;
+	}
+	
+
 } /* Media Query */
 
