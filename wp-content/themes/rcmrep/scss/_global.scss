@@ -1,13 +1,13 @@
 
 
-body {
+body.page-template-template-fullpage {
 	background:$bodybg;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
 
-body.fixed {
+body.page-template-template-fullpage.fixed {
 	overflow: hidden;
 	
 }
@@ -46,6 +46,14 @@ h2.fullpage_h2 {
 	max-width:640px;
 	margin:0 auto;
 	@include muli_semibold;
+}
+
+h2.sidebar_h2 {
+	text-align: center;
+	font-size: 28px;
+	line-height: 35px;
+	letter-spacing: 0.08em;
+	@include muli_light;
 }
 
 
