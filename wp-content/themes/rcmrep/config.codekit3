@@ -524,6 +524,14 @@
 		"oA": 0,
 		"oAP": "/template-fullpage/template-fullpage.php",
 		"oF": 0
+		},
+	"/template-sidebar/template-sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-sidebar/template-sidebar.php",
+		"oF": 0
 		}
 	},
 "hooks": [
