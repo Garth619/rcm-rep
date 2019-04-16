@@ -39,33 +39,34 @@ section#top_banner {
 	justify-content: center;
 	margin:40px auto 0;
 	max-width:485px;
-	span.star {
+	a.star {
 		font-size:85px;
 		margin:0 4px;
 		cursor: pointer;
 		text-shadow:$starshadow;
+		text-decoration: none;
 	}
-	span.star, span.star:hover ~ span.star {
+	a.star, a.star:hover ~ a.star {
 	 	color: $stargrey;
 	  transition: color 300ms;
 		transition-delay: 0;
 	}
-	&:hover span.star {
+	&:hover a.star {
 	 	color: $star;
 	}
-	&:hover span.star:nth-child(2) {
+	&:hover a.star:nth-child(2) {
 	 	transition-delay: 30ms;
 	}
-	&:hover span.star:nth-child(3) {
+	&:hover a.star:nth-child(3) {
   		transition-delay: 70ms;
 	}
-	&:hover span.star:nth-child(4) {
+	&:hover a.star:nth-child(4) {
   		transition-delay: 100ms;
 	}
-	&:hover span.star:nth-child(5) {
+	&:hover a.star:nth-child(5) {
   		transition-delay: 130ms;
 	}
-	&:hover span.star {
+	&:hover a.star {
   		cursor: pointer;
 		font-style: normal;
 	}
@@ -90,7 +91,7 @@ section#top_banner {
 	
 	.five_star_wrapper {
 		margin:20px auto 0;
-		span.star {
+		a.star {
 			font-size: 70px;
 		}
 	}
@@ -119,7 +120,7 @@ section#top_banner {
 	.five_star_wrapper {
 		max-width:300px;
 		margin: 30px auto 15px;
-		span.star {
+		a.star {
 			font-size: 51px;
 			margin:0 2px;
 		}

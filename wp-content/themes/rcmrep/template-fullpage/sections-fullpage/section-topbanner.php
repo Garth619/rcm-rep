@@ -9,15 +9,15 @@
 		
 		<div class="five_star_wrapper">
 			
-			<span class="star">★</span><!-- star -->
+			<a class="star" href="#form_review">★</a><!-- star -->
 			
-			<span class="star">★</span><!-- star -->
+			<a class="star" href="#form_review">★</a><!-- star -->
 			
-			<span class="star">★</span><!-- star -->
+			<a class="star" href="#form_review">★</a><!-- star -->
 			
-			<span class="star">★</span><!-- star -->
+			<a class="star" href="#social_review">★</a><!-- star -->
 			
-			<span class="star">★</span><!-- star -->
+			<a class="star" href="#social_review">★</a><!-- star -->
 			
 		</div><!-- five_star_wrapper -->
 		

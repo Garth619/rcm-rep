@@ -90,7 +90,11 @@
 		
 	</div><!-- review_single -->
 	
-	<span class="see_all_reviews_mobile">See All Reviews (23)</span><!-- see_all_reviews_mobile -->
+	<div class="see_all_reviews_mobile">
+		
+		<span>See All Reviews (23)</span>
+	
+	</div><!-- see_all_reviews_mobile -->
 	
 	</div><!-- rep_box -->
 	

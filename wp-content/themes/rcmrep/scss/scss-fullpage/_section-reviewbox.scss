@@ -89,7 +89,7 @@ section#reviewbox{
   }
 }
 
-span.see_all_reviews_mobile {
+div.see_all_reviews_mobile {
 	display: none;
 }
 
@@ -252,19 +252,52 @@ span.see_all_reviews_mobile {
 		display: none;
 	}
 	
-	span.see_all_reviews_mobile {
+	div.see_all_reviews_mobile {
+		// gradients dont transition well so I used psuedo elements 
 		display: inline-block;	
 		margin:0 auto;
 		color:#fff;
-		background:$bluegraddiagonal;
 		text-transform: uppercase;
 		font-size: 15px;
 		letter-spacing: 0.1em;
-		border-radius: 40px;
-		padding:18px 30px;
 		margin:55px 0 65px;
 		cursor: pointer;
+		transition: all 200ms ease-in-out;
+		position: relative;
+		z-index: 1;
 		@include muli_bold;
+		&:hover {
+			&:before {
+				opacity: 1;
+				background: $bluelight;
+			}
+		}
+		span {
+			position: relative;
+			z-index: 6;
+		}
+		&:before, &:after {
+			content:"";
+			display: block;
+			position: absolute;
+			width:100%;
+			height:100%;
+			top:0;
+			left:0;
+			padding:18px 30px;
+			border-radius: 40px;
+		}
+		&:before {
+			background:$bluelight;
+			z-index: 0;
+			opacity: 0;
+			transition: all 200ms ease-in-out;
+		}
+		&:after {
+			background:$bluegraddiagonal;
+			z-index: -1;
+		}
+		
 	}
 	
 } /* Media Query */
@@ -312,7 +345,7 @@ span.see_all_reviews_mobile {
 	}
 	
 	
-	span.see_all_reviews_mobile {
+	div.see_all_reviews_mobile {
 		margin: 38px 0 50px;
 		font-size: 14px;
 		padding: 16px 30px;
