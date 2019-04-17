@@ -8,7 +8,7 @@
 				
 				<div class="promo_img_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/promo1.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/promo1.jpg"/>
 					
 				</div><!-- promo_img_wrapper -->
 				
@@ -30,7 +30,7 @@
 				
 				<div class="promo_img_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/promo2.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/promo2.jpg"/>
 					
 				</div><!-- promo_img_wrapper -->
 				
@@ -52,7 +52,7 @@
 				
 				<div class="promo_img_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/promo1.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/promo1.jpg"/>
 					
 				</div><!-- promo_img_wrapper -->
 				
@@ -74,7 +74,7 @@
 				
 				<div class="promo_img_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/promo2.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/promo2.jpg"/>
 					
 				</div><!-- promo_img_wrapper -->
 				
