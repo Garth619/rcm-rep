@@ -10,13 +10,17 @@
 			
 			<div class="rep_box">
 				
-				<h2 class="sidebar_h2">Lorem ipsum dolor sit amet, consect etur?</h2><!-- sidebar_h2 -->
+				<div class="rep_box_inner">
 				
-				<a class="sidebar_review_button" href="" target="_blank" rel="noopener">
+					<h2 class="sidebar_h2">Lorem ipsum dolor sit amet, consect etur?</h2><!-- sidebar_h2 -->
+				
+					<a class="sidebar_review_button" href="" target="_blank" rel="noopener">
 					
-					<span>Leave A Review</span>
+						<span>Leave A Review</span>
 				
-				</a><!-- sidebar_review_button -->
+					</a><!-- sidebar_review_button -->
+				
+				</div><!-- rep_box_inner -->
 				
 			</div><!-- rep_box -->
 			

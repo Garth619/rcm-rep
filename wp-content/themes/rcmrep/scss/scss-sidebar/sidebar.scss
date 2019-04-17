@@ -18,20 +18,24 @@ body {// remove
 section#sidebar {
 	width:100%;
 	.rep_box {
-		padding: 50px;
+		padding: 50px 0 0;
 		box-shadow: none;
+	}
+	.rep_box_inner {
+		padding-bottom:60px;
 	}
 }
 
 
 a.sidebar_review_button {
 	position: relative;
-	width:220px;
+	width:100%;
+	max-width:225px;
 	text-decoration: none;
 	z-index: 1;
 	text-align: center;
 	display: block;
-	margin:0 auto;
+	margin:33px auto 0px;
 	&:before, &:after {
 		content:"";
 		display: block;
@@ -39,19 +43,95 @@ a.sidebar_review_button {
 		height:100%;
 		position: absolute;
 		top:0;
+		border-radius:40px;
 		left:0;
 	}
 	&:before {
-		background: $bluegraddiagonal;
+		background: $bluelight;
+		z-index:1;
+		opacity: 0;
+		transition: all 200ms ease-in-out;
 	}
 	&:after {
-		
+		background: $bluegraddiagonal;
 	}
 	span {
 		display: block;
 		position: relative;
 		color:#fff;
 		z-index: 2;
+		padding:18px 15px;
 		text-transform: uppercase;
+		font-size:15px;
+		letter-spacing: 0.15em;
+		@include muli_bold;
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
 	}
 }
+
+.sidebar_review_wrapper {
+	
+}
+
+
+.sidebar_single_review {
+	text-align: center;
+	padding:55px 30px 40px;
+	border-top:1px solid $review_divider_mobile;
+	span.sidebar_review_name {
+		color:$bodytext;
+		font-size:14px;
+		display: block;
+		margin-top:5px;
+		letter-spacing: 0.08em;
+		@include muli_bold;
+	}
+	p {
+		font-size:17px;
+		line-height: 25px;
+	}
+	span.sidebar_read_more {
+		color:$blue;
+		font-size:14px;
+		letter-spacing: 0.09em;
+		display: block;
+		padding-top:9px;
+		cursor: pointer;
+		transition: all 200ms ease-in-out;
+		@include muli_bold;
+		&:hover {
+			color:$bluelight;
+		}
+	}
+}
+
+.sidebar_review_stars {
+	margin-top:12px;
+	margin-bottom:20px;
+	span.star {
+		color:$star;
+		font-size: 31px;
+	}
+	span.star.grey {
+		color:$stargrey;
+	}
+	
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	a.sidebar_review_button {
+		max-width:200px;
+		span {
+			font-size:14px;
+		}
+	}
+	
+	
+} /* Media Query */

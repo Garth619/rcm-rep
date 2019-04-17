@@ -52,6 +52,7 @@ h2.sidebar_h2 {
 	text-align: center;
 	font-size: 28px;
 	line-height: 35px;
+	padding:0 50px;
 	letter-spacing: 0.08em;
 	@include muli_light;
 }
@@ -65,6 +66,15 @@ h3.fullpage_h3 {
 	letter-spacing: 0.12em;
 	margin-bottom: 9px;
 	@include muli_extrabold;
+}
+
+
+h3.sidebar_h3 {
+	text-transform: uppercase;
+	font-size: 16px; 
+	line-height: 19px;
+	letter-spacing: 0.1em;
+	@include muli_bold;
 }
 
 p {
@@ -120,6 +130,12 @@ body.error404 {
 	h2.fullpage_h2 {
 		font-size: 20px;
 		line-height: 25px;
+	}
+	
+	
+	h2.sidebar_h2 {
+		font-size: 25px;
+    line-height: 30px;
 	}
 	
 	h3.fullpage_h3 {
