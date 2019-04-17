@@ -4,7 +4,7 @@
 	
 	get_header();?>
 	
-	<div class="sidebar_test">
+
 		
 		<section id="sidebar">
 			
@@ -70,7 +70,7 @@
 			
 		</section><!-- sidebar -->
 		
-	</div><!-- sidebar_test -->
+	
 	
 	
 	<?php wp_footer();?>

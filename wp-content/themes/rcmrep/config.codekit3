@@ -95,6 +95,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/fixed_button_icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/fixed_button_icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/google.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -381,6 +391,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/scss-fixed-button/fixed-button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/scss-fixed-button/fixed-button.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/scss-fullpage/_section-formbox.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -488,6 +511,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/style.css.map",
+		"oF": 0
+		},
+	"/template-fixed_button/template-fixedbutton.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/template-fixed_button/template-fixedbutton.php",
 		"oF": 0
 		},
 	"/template-fullpage/sections-fullpage/section-formbox.php": {

@@ -4,9 +4,7 @@
 	
 	get_header();?>
 	
-	<div class="sidebar_test">
-		
-		<section id="sidebar">
+	<section id="sidebar">
 			
 			<div class="rep_box">
 				
@@ -26,11 +24,7 @@
 			
 		</section><!-- sidebar -->
 		
-	</div><!-- sidebar_test -->
-	
-	
 	<?php wp_footer();?>
-
 
 </body>
 </html>
