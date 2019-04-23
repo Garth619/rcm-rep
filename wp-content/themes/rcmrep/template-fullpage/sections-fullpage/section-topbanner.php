@@ -1,7 +1,11 @@
-
 <section id="top_banner">
 	
-	<img class="top_banner_img" src="<?php bloginfo('template_directory');?>/images/top_banner_img.jpg"/>
+<!-- 	<img class="top_banner_img" src="<?php bloginfo('template_directory');?>/images/top_banner_img.jpg"/>  ifs theres an image don't show the circles-->
+
+<div class="circle circle_one"></div>
+<div class="circle circle_two"></div>
+<div class="circle circle_three"></div>
+<div class="circle circle_four"></div>
 	
 	<div class="top_banner_inner">
 		
