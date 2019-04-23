@@ -202,7 +202,12 @@ $('.review_close').on('click', function(e) {
 });
 
 
+/* Fixed Button Animation Example - might be cookie based or on hover or whatever we think will work best, 
+	this is just example for animation
+----------------------------------------------------------------------------------------------------------------- */
 
+
+$('.fixed_button_bubble').addClass('animate');
 
   
 }); // document ready
